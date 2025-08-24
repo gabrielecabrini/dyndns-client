@@ -1,0 +1,8 @@
+daemon: true
+interval: 5m
+ip-url: "https://api.ipify.org"
+providers:
+  cloudflare:
+    zone: "example.com"
+    token: "yourtoken"
+    domain: "home.example.com"
